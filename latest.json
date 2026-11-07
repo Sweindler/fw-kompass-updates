@@ -1,6 +1,6 @@
 {
-  "version": "0.5.2",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.5.2.zip",
-  "sha256": "fed1486ba9aab6502fbcf16a42cffdfa581fdcfe3ea7029760711874aad62a67",
-  "notes": "FW-nahes Erscheinungsbild: originalgetreues Logo, markanter Orange-Weiß-Stil, prägnante Überschriften, klare Navigation und Mitgliederfunktionen direkt auf der Startseite."
+  "version": "0.6.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.6.0.zip",
+  "sha256": "17a47b70c83acc6066a7e130a4361ee3b083a3249e4b85ce1d0b4285adac20ac",
+  "notes": "Who is Who: 36 MdL, 11 Personen Bundesvorstand und Geschäftsführung, 18 Personen Landesvorstand Bayern; Suche, Quellen, ausgewählte Fotos und korrekte Kennzeichnung der vakanten Vorsitzendenämter."
 }
