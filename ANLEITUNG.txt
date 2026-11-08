@@ -1,10 +1,37 @@
-FW KOMPASS 1.3.5 – START-POPUP FÜR PUSH UND STATISTIK
+FW KOMPASS – VERSION 1.3.6
+Automatische Nachrichtenprüfung beim Wechsel zwischen Bund, Bayern und Erding
 
-1. Äußere ZIP-Datei entpacken.
-2. In GitHub Sweindler/fw-kompass-updates (main) beide Dateien fw-kompass-v1.3.5.zip und latest.json hochladen bzw. latest.json ersetzen, Commit changes.
-3. In https://weindler.net/fw-kompass/admin/updater.php Online-Update installieren.
-4. Zum Testen die Startseite in einem privaten Browserfenster öffnen: https://weindler.net/fw-kompass/ .
-5. Push/Statistik sind nicht vorausgewählt; beide können getrennt aktiv zugestimmt werden. Push benötigt eine direkte Bestätigung der Browserberechtigung, iPhones müssen die PWA zum Home-Bildschirm hinzufügen.
-6. Der Dialog erscheint je Gerät nur beim ersten Start (oder nach Löschen der lokal gespeicherten Einstellungen). Wer auf Datenschutzhinweise klickt, kann zuerst die Erklärung lesen.
+INSTALLATION WIE GEWOHNT
+1. Das äußere ZIP „FW-Kompass-v1.3.6-GitHub-komplett.zip“ auf dem Smartphone entpacken.
+2. Die enthaltenen Dateien „fw-kompass-v1.3.6.zip“ und „latest.json“ in
+   https://github.com/Sweindler/fw-kompass-updates hochladen.
+3. Die alte latest.json ersetzen, mit Commit changes speichern.
+4. Im bestehenden Updatebereich https://weindler.net/fw-kompass/admin/updater.php
+   die Version 1.3.6 prüfen und installieren.
 
-Der bestehende Administratorbereich, Inhalte und Nutzungsdaten werden nicht ersetzt. Die bisherige Push-Schnittstelle bleibt erhalten.
+DANACH EINMAL PRÜFEN
+1. https://weindler.net/fw-kompass/api/news.php?admin=1 öffnen.
+2. Mit deinem Adminpasswort anmelden und alle drei Quellen aktivieren.
+3. Prüfintervall nach Wunsch auswählen (3, 6, 12, 24 Stunden); 6 Stunden sind der Standard.
+4. Einmal „Jetzt Quellen prüfen & aktualisieren“ ausführen und die drei Statuswerte anschauen.
+5. In der App „Aktuelles“ öffnen und nacheinander Bund, Bayern und Erding antippen.
+   Jede Auswahl fragt nun die Server-API ab; die Originalwebsite wird nur nach
+   Ablauf des eingestellten Intervalls neu geprüft.
+
+WICHTIGE HINWEISE
+- Das ist keine Echtzeit-Garantie. Der Stand hängt von den offiziellen Webseiten ab.
+- Bund und Bayern: eindeutig datierte Links werden nach erfolgreichem Abruf übernommen.
+- Erding: Beiträge ohne eindeutig erkennbare Datums-/Linkzuordnung werden bewusst
+  nicht als aktuelle Nachrichten ausgegeben. Stattdessen bleibt der Link zur Quelle.
+- Wenn ein Quellserver nicht erreichbar ist, bleiben alte importierte Meldungen erhalten;
+  der Status zeigt den Fehler an.
+- Alte Demo-Nachrichten werden im öffentlichen Bereich nicht angezeigt.
+- Updates der Programmdaten bleiben getrennt von Nachrichtenupdates. Keine neuen ZIPs
+  für einzelne neue Nachrichten erforderlich.
+- Für nächtliche Aktualisierung ohne App-Aufruf ist später optional ein Cronjob nötig.
+- Im ZIP sind KEINE Logins, VAPID-Schlüssel, Push-Abos, Statistiken, Betreiberdaten
+  oder Inhalte aus .fw-private enthalten. Bestehende admin/ und data/ bleiben erhalten.
+
+TESTSTATUS
+Syntax und Parser anhand repräsentativer Linkformate geprüft. Ein vollständiger
+Browsertest sowie ein Live-Abruf vom goneo-Server sind vor Ort zu kontrollieren.
