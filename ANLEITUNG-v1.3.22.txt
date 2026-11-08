@@ -1,0 +1,19 @@
+FW Kompass Version 1.3.22 – alle 28 Landrätinnen und Landräte der FREIEN WÄHLER Bayern
+
+FÜR DIREKTES UPDATE VOM HANDY:
+1. Ausschließlich fw-kompass-v1.3.22.zip herunterladen (nicht dieses GitHub-Gesamtpaket).
+2. Im vorhandenen Server-Updater unter „Update direkt vom Handy“ auswählen.
+3. Installieren. Die bestehende App auf dem goneo-Server wird vorausgesetzt.
+
+FÜR GITHUB:
+1. Dieses Gesamtpaket entpacken.
+2. fw-kompass-v1.3.22.zip sowie latest.json im Update-Repository im Hauptverzeichnis hochladen.
+3. Die SHA-256-Prüfsumme in latest.json bezieht sich genau auf die beiliegende ZIP.
+
+Inhalt: index.html, assets/app.js, assets/style.css, assets/who.js,
+assets/organisation.js, assets/hubert-aiwanger-portrait.webp, sw.js, release.json.
+Die Bilder der 28 FW-Landräte werden erst nach Zustimmung von den offiziellen FW-Webseiten geladen.
+Bestehende Server-API, Nachrichten und weitere Daten werden nicht überschrieben.
+
+Quelle: https://www.fw-bayern.de/landesverband-vereinigung/landraete
+Stand: 8. November 2026
