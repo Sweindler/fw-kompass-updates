@@ -1,6 +1,6 @@
 {
-  "version": "0.8.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.8.0.zip",
-  "sha256": "8cc0802e0090c911ee71fb900e43bff52b00cc0ef36239df399b7eabbddffe20",
-  "notes": "FW vor Ort: 12 lokale Organisationen, Websites, Suche, Kreisvereinigung/Wählerschaft getrennt; keine vertraulichen Daten."
+  "version": "0.9.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.9.0.zip",
+  "sha256": "9c6c22a2d3ce216f01f2e4ce8dfac0244e85ee900bbb96aac43b178cc33cfaea",
+  "notes": "Nachrichten-Synchronisation für Bund, Bayern und Erding, geschützte Quellverwaltung, klare Live-/Demo-Kennzeichnung"
 }

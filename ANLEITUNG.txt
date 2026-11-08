@@ -1,13 +1,43 @@
-FW Kompass 0.7.0 – GitHub Online-Update
+FW Kompass 0.9.0 – Nachrichten-Synchronisation (08.11.2026)
 
-1. Dieses äußere ZIP am Handy entpacken.
-2. Die darin enthaltene Datei fw-kompass-v0.7.0.zip NICHT weiter entpacken.
-3. fw-kompass-v0.7.0.zip und latest.json in das GitHub-Repository Sweindler/fw-kompass-updates hochladen. Die vorhandene latest.json überschreiben/ersetzen.
-4. Commit changes bestätigen.
-5. Auf https://weindler.net/fw-kompass/admin/updater.php anmelden, Online-Version prüfen und installieren.
-6. App öffnen und zu „Rechtliches“ > „Geschützte Betreiberangaben & Statistik“ gehen.
-7. Dort mit DEMSELBEN Passwort wie beim Updater anmelden und im Formular den rechtlich verantwortlichen Betreiber, Anschrift, E-Mail und gegebenenfalls redaktionell Verantwortliche/n eintragen.
-8. Statistik ist für alle zunächst AUS. Nur Besucher, die sie bewusst erlauben, werden in Tages-Summen gezählt.
+1. Dieses äußere ZIP auf deinem Smartphone entpacken.
+2. Beide enthaltenen Dateien fw-kompass-v0.9.0.zip und latest.json
+   im GitHub-Repository Sweindler/fw-kompass-updates hochladen.
+   Die vorhandene latest.json ersetzen; die innere ZIP-Datei NICHT entpacken.
+3. GitHub: Commit changes bestätigen.
+4. https://weindler.net/fw-kompass/admin/updater.php öffnen,
+   anmelden und Online-Update installieren.
+5. DANACH einmalig die Synchronisationsverwaltung öffnen:
+   https://weindler.net/fw-kompass/api/news.php?admin=1
+   Mit demselben Admin-Passwort anmelden und auf
+   "Jetzt Quellen prüfen & aktualisieren" tippen.
+6. Im Bereich "Aktuelles" werden gefundene Meldungen und der
+   genaue Quellstatus angezeigt. Beim ersten App-Aufruf NACH Ablauf
+   des Intervalls wird automatisch erneut geprüft.
 
-HINWEIS: Die rechtlichen Texte sind Vorlagen und müssen vor einem öffentlichen Regelbetrieb an Betreiber, Hosting-Logs, externe Dienste und Verantwortlichkeiten angepasst werden. Ein vollständiger browserbasierter End-to-End-Test auf goneo ist noch erforderlich.
+Das System ist für drei FEST hinterlegte Quellen vorbereitet:
+- Bundesvereinigung: www.freiewaehler.eu/bund/pressemitteilungen/
+- Bayern: www.fw-bayern.de/aktuelles/mitteilungen
+- Erding: www.fw-landkreis-erding.de/aktuelles
 
+Es werden ausschließlich datierte Beitragslinks mit Überschrift eingelesen.
+Quellen ohne erkennbares Veröffentlichungsdatum (bei Erding teils der Fall)
+werden nicht als neue Meldungen übernommen. Stattdessen bleibt der
+Link zur offiziellen Originalseite erhalten.
+
+WICHTIG: Im lokalen Test wurden HTML-Muster mit Beispieldaten geprüft.
+Ein echter Abruf von deinem goneo-Webspace konnte hier nicht geprüft werden.
+Ob die Seiten von goneo aus erreichbar und mit dem Muster kompatibel sind,
+zeigt erst die neue Verwaltung unter "Quellen prüfen".
+
+Für automatische Prüfungen auch an Tagen ohne Besucher kann ein PHP-Cronjob
+auf dem Server eingerichtet werden, sofern dein goneo-Tarif das erlaubt.
+PHP-CLI-Befehl (Pfad abhängig von goneo):
+  php /ABSOLUTER-PFAD-ZU-HTDOCS/fw-kompass/api/news.php --sync
+Keinen öffentlichen Cron-Token in URLs verwenden.
+
+Die Webseite eines Dritten darf nicht beliebig ausgelesen werden.
+Bitte Nutzungsbedingungen und eventuelle Feed-/API-Freigabe klären.
+Die Integration verwendet keine externen Tracking-Bibliotheken oder
+Werbe-Cookies. Bestehende Mitglieder-, Statistik- und Rechtstext-Daten
+werden durch dieses ZIP nicht überschrieben.
