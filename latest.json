@@ -1,6 +1,6 @@
 {
-  "version": "0.6.1",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.6.1.zip",
-  "sha256": "20b0c9fe4ab2c1558828778ea151ced0c1fdd7d387f50891b20236bc1e7c639e",
-  "notes": "Bundesgremien: BFA und BAG im Mitgliederwegweiser, vier offizielle BAGs, vier belegte BFAs, Vorsitzende, öffentliche Kontaktwege und Suche."
+  "version": "0.7.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.7.0.zip",
+  "sha256": "5b720adfc50237069b713c56b78f492e8f15dab5b0799294358416cc8b000756",
+  "notes": "Version 0.7: Freiwillige datensparsame Nutzungsstatistik mit geschütztem Dashboard, Pflichtangaben-Verwaltung, Impressum (DDG/MStV), Datenschutzhinweise (DSGVO/TDDDG) und externe Porträts erst nach Klick."
 }

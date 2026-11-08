@@ -1,12 +1,13 @@
-FW KOMPASS 0.6.1 – BUNDESGREMIEN BFA & BAG
+FW Kompass 0.7.0 – GitHub Online-Update
 
-1. ÄUSSERE Datei FW-Kompass-GitHub-v0.6.1-komplett.zip auf dem Smartphone entpacken.
-2. NUR die entpackten Dateien fw-kompass-v0.6.1.zip und latest.json im GitHub-Repository Sweindler/fw-kompass-updates hochladen.
-3. Die vorhandene latest.json ersetzen, Commit changes bestätigen.
-4. Unter https://weindler.net/fw-kompass/admin/updater.php → Online-Update prüfen & installieren.
+1. Dieses äußere ZIP am Handy entpacken.
+2. Die darin enthaltene Datei fw-kompass-v0.7.0.zip NICHT weiter entpacken.
+3. fw-kompass-v0.7.0.zip und latest.json in das GitHub-Repository Sweindler/fw-kompass-updates hochladen. Die vorhandene latest.json überschreiben/ersetzen.
+4. Commit changes bestätigen.
+5. Auf https://weindler.net/fw-kompass/admin/updater.php anmelden, Online-Version prüfen und installieren.
+6. App öffnen und zu „Rechtliches“ > „Geschützte Betreiberangaben & Statistik“ gehen.
+7. Dort mit DEMSELBEN Passwort wie beim Updater anmelden und im Formular den rechtlich verantwortlichen Betreiber, Anschrift, E-Mail und gegebenenfalls redaktionell Verantwortliche/n eintragen.
+8. Statistik ist für alle zunächst AUS. Nur Besucher, die sie bewusst erlauben, werden in Tages-Summen gezählt.
 
-Die Update-Datei ist inkrementell für eine bereits installierte FW-Kompass-Version 0.6.0. Nicht direkt als App benutzen. Die ZIP ist nur zum Aktualisieren des Programms; Admin- und Datenverzeichnisse werden nicht verändert.
+HINWEIS: Die rechtlichen Texte sind Vorlagen und müssen vor einem öffentlichen Regelbetrieb an Betreiber, Hosting-Logs, externe Dienste und Verantwortlichkeiten angepasst werden. Ein vollständiger browserbasierter End-to-End-Test auf goneo ist noch erforderlich.
 
-Inhalt: Neuer Gremien-Reiter, vier veröffentlichte BAGs, vier belegte BFAs, Kontaktwege, Übersicht BFA/BAG, Suche, Verlinkung aus dem Anliegen-Wegweiser. Die BFA-Liste ist ausdrücklich nicht vollständig, da kein offizieller Gesamtstand nachgewiesen ist.
-
-Stand: 07.11.2026
