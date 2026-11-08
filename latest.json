@@ -1,6 +1,6 @@
 {
-  "version": "1.3.17",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.17.zip",
-  "sha256": "c978e5b6ecf9f26f461113f84aaa6376af7a136de72e92aea738d580c06745d7",
-  "notes": "Hubert Aiwanger: Porträt statt HA-Platzhalter, lokales Bild mit Trauerflor, bisherige Rollenbezeichnungen, kompaktere mobile Ansicht."
+  "version": "1.3.18",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.18.zip",
+  "sha256": "67b98559eb97441d7ec3b4fab7a926fd69d90ce7d6f6a950c7989eb9bc8f9a4e",
+  "notes": "Hubert Aiwanger auch in der MdL-Liste: Gedenkeintrag mit bisherigem MdL-Titel, echtem Porträt und schwarzem Trauerflor. Sonstige Einträge unverändert."
 }

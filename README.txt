@@ -1,19 +1,16 @@
-FW Kompass v1.3.17 – Korrektur Hubert-Porträt und Trauerflor
+FW Kompass v1.3.18 – Ergänzung Gedenkeintrag in der MdL-Übersicht
 
-Das letzte v1.3.16-Paket nutzte eine defekte externe Bildadresse für Hubert. Dieses Update enthält sein Porträt lokal als assets/hubert-aiwanger-portrait.webp, basierend auf einer für das Projekt bereits bereitgestellten Aufnahme. Es bleibt ohne Fremdserver sichtbar. Der schwarze Trauerflor liegt nur über dem Foto.
+Bisher fehlte Hubert Aiwanger in „Who is Who → MdL in Bayern“, obwohl er in Bundesvorstand, Landesvorstand und Ministerliste mit Gedenkhinweis dargestellt wird.
 
-Änderungen:
-• Bundesvorstand: Hubert als Bundesvorsitzender, Porträt + Trauerflor + kleines Gedenken.
-• Landesvorstand: Hubert als Landesvorsitzender, gleiches Porträt.
-• Staatsminister: Hubert als bayerischer Wirtschaftsminister und stellvertretender Ministerpräsident, gleiches Porträt.
-• Kein ehemaliger-Titel in der Hauptzeile; kleines Sterbedatum als Erinnerung. Der Eintrag ist nicht als aktuelle Amtsausübung zu verstehen.
-• Bisherige Personenverzeichnisse inklusive JFW, MdL und EU bleiben bestehen.
-• Kompaktere mobile Porträt-Schaltfläche.
+Änderung:
+• „Who is Who → MdL in Bayern“: Hubert ist nun als erster Eintrag ergänzt. Er wird mit seiner bisherigen MdL-Funktion (Wahlkreis Landshut), dem bereits lokalen Porträt, schwarzem Trauerflor, „† In stillem Gedenken“ und Datum angezeigt.
+• Liste: 37 Einträge einschließlich eines ausdrücklich gekennzeichneten Gedenkeintrags; der Eintrag ist nicht als aktuelle Mandatsausübung zu verstehen.
+• Alle weiteren Verzeichnisse, Nachrichten und Funktionen bleiben erhalten.
 
-Installation:
-1. Dieses Paket entpacken.
-2. fw-kompass-v1.3.17.zip und latest.json in das GitHub-Update-Repository Sweindler/fw-kompass-updates (main) hochladen. latest.json ersetzen.
-3. Den Updater auf https://weindler.net/fw-kompass/admin/updater.php starten.
-4. App bei Bedarf vollständig neu laden (PWA aktualisiert Cache).
+Installation (wie bei den bisherigen Updates):
+1. Dieses GitHub-Komplettpaket entpacken.
+2. Die Dateien fw-kompass-v1.3.18.zip und latest.json ins GitHub-Repository Sweindler/fw-kompass-updates (Branch main) hochladen. Bestehende latest.json ersetzen.
+3. Den App-Updater unter https://weindler.net/fw-kompass/admin/updater.php öffnen und das Update installieren.
+4. Falls die App die alte Liste zeigt, einmal App neu laden und gegebenenfalls PWA-Update annehmen.
 
-Hinweis: Weitere App-Dateien und der Server bleiben unverändert. Dieses Paket ist ein inkrementelles Update. Für öffentliche Bildverwendung sind ggf. Nutzungsrechte der Fotografin/des Fotografen zu prüfen.
+Technik: Inkrementelles Update, keine vollständige Erstinstallation. Aus den vorangegangenen Versionen verbleiben alle übrigen Dateien und Serverfunktionen unangetastet.
