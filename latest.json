@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.0.zip",
-  "sha256": "c9bb3d44b061875e5a5d67ba06d91561718ea4b8814a47670eb44402b3b207db",
-  "notes": "Erweiterte freiwillige Nutzungsstatistik: meistbetrachtete Nachrichten und MdL-Beiträge, aktive Sichtbarkeit, Tageszeiten und Wochentage; keine Nutzer-IDs oder individuellen Besuchsverläufe."
+  "version": "1.3.1",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.1.zip",
+  "sha256": "b6e53675f3a1b3345ec7e9bb9692dfb443b4dd2eeb7359be4ad912fdda26a3e2",
+  "notes": "Öffentlicher Start als Pilotprojekt Landkreis Erding: klare Kennzeichnung im Kopfbereich, Bereinigung von Demo-Texten und Verzicht auf unbestätigte Beispielnachrichten."
 }

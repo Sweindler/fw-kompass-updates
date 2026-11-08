@@ -1,18 +1,21 @@
-# FW Kompass v1.3.0 – Nutzung & Beliebtheit
+FW KOMPASS 1.3.1 – ÖFFENTLICH GESTARTETES PILOTPROJEKT LANDKREIS ERDING
 
-- Erweiterte freiwillige, aggregierte Statistik: Tagesstunden und Wochentage, Beiträge nach Sichtkontakten und ungefähre Sichtbarkeit.
-- Beiträge werden erst nach mindestens 3 Sekunden im sichtbaren Bereich als Sichtkontakt gezählt. Zeiten werden in 5-Sekunden-Schritten (max. 300 Sekunden pro Phase) erfasst; nicht gleichzusetzen mit tatsächlicher Lesezeit.
-- **Erneute Einwilligung erforderlich**. Vorherige Statistik-Zustimmung wird nicht stillschweigend übernommen.
-- Datenschutz: keine Besucher-IDs oder individuellen Pfade, Datensätze werden nur nach Tag/Stunde/Inhalt zusammengefasst, automatische Bereinigung nach 120 Tagen bei neuer Erfassung.
-- Bestehende Statistik- und Redaktionsdaten, Push-Abonnements und Updater-Konfiguration bleiben erhalten.
-- Den neuen Bereich nach Installation unter https://weindler.net/fw-kompass/#statistik aufrufen und mit vorhandenem Admin-Passwort anmelden.
-- Zeitraum 7/30/90/120 Tage wählbar. Noch keine Daten zum Start; nur zukünftige Nutzungen zustimmender Geräte.
-- In der Datenschutzerklärung ist die Messmethode ergänzt. Vor öffentlicher Regelverwendung Einwilligung/Verantwortlichkeiten und Webserver-Logs rechtlich prüfen.
-- Technisch geprüft: PHP 8.4, JavaScript-Syntax und ZIP-Hash. Funktionstests auf goneo erforderlich.
+1. Äußere ZIP auf dem Smartphone entpacken.
+2. fw-kompass-v1.3.1.zip und latest.json in GitHub Sweindler/fw-kompass-updates hochladen.
+3. Vorhandene latest.json ersetzen und Commit changes bestätigen.
+4. https://weindler.net/fw-kompass/admin/updater.php öffnen und Online-Update installieren.
+5. FW Kompass neu laden und die Kennzeichnung PILOTPROJEKT im Kopfbereich kontrollieren.
 
-## Installation
-1. Äußere GitHub-ZIP auf dem Smartphone entpacken.
-2. Darin enthaltene fw-kompass-v1.3.0.zip und latest.json in Sweindler/fw-kompass-updates hochladen, vorhandene latest.json ersetzen.
-3. In der App-Administration das Online-Update abrufen.
-4. Datenschutz-Einstellungen unter #rechtliches prüfen und der erweiterten Statistik zustimmen (freiwillig).
-5. Geschützte Statistik unter #statistik aufrufen. Weitere Geräte werden nur mit ausdrücklicher Zustimmung gezählt.
+ÄNDERUNGEN
+- Öffentlich gestartetes Pilotprojekt Landkreis Erding bleibt eindeutig erkennbar.
+- Alte Demo-, Prototyp- und Testtexte im öffentlichen Angebot entfernt.
+- Alte Beispielnachrichten werden nicht mehr als aktuelle Meldungen ausgegeben.
+- Echte, synchronisierte und redaktionell veröffentlichte Meldungen bleiben erhalten.
+- News-Quelllinks bleiben auch ohne erfolgreiches Sync-Ergebnis erreichbar.
+- Nutzerstatistiken, Push-Abonnements, Admin-Daten und Redaktionseinträge werden nicht überschrieben.
+
+WICHTIG
+- Dies bedeutet einen öffentlichen Projektstart, KEINE Bestätigung einer offiziellen Trägerschaft durch eine FW-Organisation.
+- Betreiberangaben, Impressum, Datenschutz und Logo-Nutzungsberechtigung müssen geklärt sein.
+- Die automatische Synchronisation und externe Links funktionieren nur bei erfolgreichen Quellenabrufen.
+- Bei Nachträgen werden alte Beispieldateien auf dem Server nicht gelöscht. Sie werden lediglich nicht öffentlich ausgegeben.
