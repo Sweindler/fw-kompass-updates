@@ -1,43 +1,13 @@
-FW Kompass 0.9.0 – Nachrichten-Synchronisation (08.11.2026)
+FW KOMPASS 1.0.0 – BENACHRICHTIGUNGSZENTRALE
 
-1. Dieses äußere ZIP auf deinem Smartphone entpacken.
-2. Beide enthaltenen Dateien fw-kompass-v0.9.0.zip und latest.json
-   im GitHub-Repository Sweindler/fw-kompass-updates hochladen.
-   Die vorhandene latest.json ersetzen; die innere ZIP-Datei NICHT entpacken.
-3. GitHub: Commit changes bestätigen.
-4. https://weindler.net/fw-kompass/admin/updater.php öffnen,
-   anmelden und Online-Update installieren.
-5. DANACH einmalig die Synchronisationsverwaltung öffnen:
-   https://weindler.net/fw-kompass/api/news.php?admin=1
-   Mit demselben Admin-Passwort anmelden und auf
-   "Jetzt Quellen prüfen & aktualisieren" tippen.
-6. Im Bereich "Aktuelles" werden gefundene Meldungen und der
-   genaue Quellstatus angezeigt. Beim ersten App-Aufruf NACH Ablauf
-   des Intervalls wird automatisch erneut geprüft.
+1. Diese äußere ZIP auf Android entpacken.
+2. Nur fw-kompass-v1.0.0.zip und latest.json in GitHub Sweindler/fw-kompass-updates hochladen (latest.json ersetzen).
+3. In https://weindler.net/fw-kompass/admin/updater.php über "Online-Update prüfen & installieren" aktualisieren.
+4. In der App unter "Mitteilungen" mit bestehendem Adminpasswort anmelden, Hinweise veröffentlichen.
+5. Nutzer lesen diese Mitteilungen beim Öffnen der App. Gelesen-Status bleibt im jeweiligen Gerät.
 
-Das System ist für drei FEST hinterlegte Quellen vorbereitet:
-- Bundesvereinigung: www.freiewaehler.eu/bund/pressemitteilungen/
-- Bayern: www.fw-bayern.de/aktuelles/mitteilungen
-- Erding: www.fw-landkreis-erding.de/aktuelles
+Keine zusätzlichen Serverdateien im Admin-Ordner nötig: Die Funktion nutzt api/version.php, dessen Austausch der vorhandene Server-Updater ausdrücklich erlaubt.
+Das Update überschreibt keine bestehenden Admin- oder Statistikdaten. Hinweise werden ausschließlich in .fw-private/notices.json gespeichert (geschützt).
 
-Es werden ausschließlich datierte Beitragslinks mit Überschrift eingelesen.
-Quellen ohne erkennbares Veröffentlichungsdatum (bei Erding teils der Fall)
-werden nicht als neue Meldungen übernommen. Stattdessen bleibt der
-Link zur offiziellen Originalseite erhalten.
-
-WICHTIG: Im lokalen Test wurden HTML-Muster mit Beispieldaten geprüft.
-Ein echter Abruf von deinem goneo-Webspace konnte hier nicht geprüft werden.
-Ob die Seiten von goneo aus erreichbar und mit dem Muster kompatibel sind,
-zeigt erst die neue Verwaltung unter "Quellen prüfen".
-
-Für automatische Prüfungen auch an Tagen ohne Besucher kann ein PHP-Cronjob
-auf dem Server eingerichtet werden, sofern dein goneo-Tarif das erlaubt.
-PHP-CLI-Befehl (Pfad abhängig von goneo):
-  php /ABSOLUTER-PFAD-ZU-HTDOCS/fw-kompass/api/news.php --sync
-Keinen öffentlichen Cron-Token in URLs verwenden.
-
-Die Webseite eines Dritten darf nicht beliebig ausgelesen werden.
-Bitte Nutzungsbedingungen und eventuelle Feed-/API-Freigabe klären.
-Die Integration verwendet keine externen Tracking-Bibliotheken oder
-Werbe-Cookies. Bestehende Mitglieder-, Statistik- und Rechtstext-Daten
-werden durch dieses ZIP nicht überschrieben.
+Noch kein Push bei geschlossener App: Hierzu ist eine gesonderte Web-Push-Versandinfrastruktur mit VAPID-Schlüsseln und ausdrücklicher Zustimmung nötig.
+Bitte nach Update auf goneo mit Adminlogin und einer Testmitteilung verifizieren.

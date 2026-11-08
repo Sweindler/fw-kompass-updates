@@ -1,6 +1,6 @@
 {
-  "version": "0.9.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.9.0.zip",
-  "sha256": "9c6c22a2d3ce216f01f2e4ce8dfac0244e85ee900bbb96aac43b178cc33cfaea",
-  "notes": "Nachrichten-Synchronisation für Bund, Bayern und Erding, geschützte Quellverwaltung, klare Live-/Demo-Kennzeichnung"
+  "version": "1.0.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.0.0.zip",
+  "sha256": "1089fb846c1c9e974a9eb02df1c2502236e3af2bbea15132b9e6532a5ef2210d",
+  "notes": "Benachrichtigungszentrale, Update-Hinweise und geschützte Redaktion (In-App; noch keine Hintergrund-Pushs)."
 }
