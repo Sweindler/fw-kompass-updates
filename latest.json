@@ -1,6 +1,6 @@
 {
-  "version": "1.3.11",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.11.zip",
-  "sha256": "1616f89faf7781dfdaefced7479e7ac9fc5411f4d162a63230b74d825531a688",
-  "notes": "Einmaliger Gedenkhinweis fuer Hubert Aiwanger und Nachruf unter Aktuelles. Bestehende Funktionen bleiben erhalten."
+  "version": "1.3.12",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.12.zip",
+  "sha256": "e3a13071bcc1c3121fdd6bb521d72b5b947ec9c61ae2b2c86251bbac642ac49e",
+  "notes": "Who is Who: Mit einem Klick die offiziellen Fotos aller 36 hinterlegten Landtagsabgeordneten anzeigen; Auswahl merken, bei fehlenden Bildern Platzhalter."
 }
