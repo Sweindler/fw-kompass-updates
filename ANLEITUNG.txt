@@ -1,12 +1,10 @@
-FW KOMPASS 1.3.10 – LESBARE BUNDESNACHRICHTEN
+FW Kompass 1.3.11 – Gedenken an Hubert Aiwanger
 
-1. Dieses aeussere ZIP entpacken.
-2. Die innere fw-kompass-v1.3.10.zip NICHT entpacken.
-3. Bei GitHub Sweindler/fw-kompass-updates die innere ZIP und latest.json hochladen.
-4. latest.json ersetzen und Commit changes.
-5. Ueber https://weindler.net/fw-kompass/admin/updater.php installieren.
-6. Unter https://weindler.net/fw-kompass/api/news.php?admin=1
-   mit Admin-Passwort 'Jetzt Quellen pruefen & aktualisieren' tippen.
-7. In der App unter Aktuelles -> Bund kontrollieren.
+1. Aeusseres ZIP herunterladen und auf dem Smartphone entpacken.
+2. Die beiden Dateien fw-kompass-v1.3.11.zip und latest.json auf GitHub in Sweindler/fw-kompass-updates hochladen (latest.json ersetzen).
+3. Commit changes bestaetigen.
+4. In https://weindler.net/fw-kompass/admin/updater.php das Online-Update 1.3.11 installieren.
+5. Zum Testen im Inkognito-Fenster https://weindler.net/fw-kompass/ oeffnen. Das Gedenkbild erscheint einmal, danach bleibt der Beitrag unter Aktuelles bzw. #gedenken erreichbar.
 
-Es werden keine bestehenden Daten, Push-Abonnements oder Passwoerter veraendert.
+WICHTIG: Das Popup wird nur einmal pro Browser-/Geraeteprofil angezeigt, sofern Browserdaten nicht geloescht werden. Es wird nicht serverseitig pro Mitglied gespeichert. Einwilligungen fuer Statistik oder Push werden davon nicht veraendert.
+Das Update aendert keine Dateien unter data/, admin/ oder private Daten. Die bestehenden Push- und News-Schnittstellen bleiben unveraendert.
