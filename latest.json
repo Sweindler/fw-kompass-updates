@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.2.0.zip",
-  "sha256": "3d8319159a9236c40782e2a789c8d0a5b8025fc92281e0df0c694c81f0cf5b14",
-  "notes": "MdL Aktuell mit Instagram-Profilen und geschütztem Beitragslink-Editor. Keine automatische Instagram-Übernahme."
+  "version": "1.2.1",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.2.1.zip",
+  "sha256": "6f3e762b1dfd57b4a5ff9adeca5e41193f3a30e64168ea27678c711c23514707",
+  "notes": "Kompaktere MdL-Personenkarten, offizielle Porträts auf Wunsch und separater passwortgeschützter Redaktionsbereich."
 }

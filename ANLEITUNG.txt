@@ -1,19 +1,21 @@
-# FW Kompass v1.2.0 – MdL Aktuell
+# FW Kompass 1.2.1 — MdL Aktuell & Redaktion
 
-## Neu
+## Änderungen
+- Kompakte Personenprofile auf Mobilgeräten mit Benno Zierer, Josef Lausch und Markus Saller.
+- **Porträtfotos auf Wunsch**: Nach dem Tipp auf „Offizielle Porträts anzeigen“ lädt die App die bereits in `Who is Who` hinterlegten Bildquellen der FW-Landtagsfraktion. Die Entscheidung wird nur auf dem eigenen Gerät gespeichert und kann widerrufen werden. Beim Laden wird eine Verbindung zum externen Bildserver hergestellt. Bitte Bildrechte für längerfristige öffentliche Nutzung klären.
+- **Geschützte Redaktion** unter `https://weindler.net/fw-kompass/#redaktion`: Anmelden mit demselben Admin-Passwort, Beiträge erstellen und löschen. Die öffentliche Ansicht enthält keinen Beitragseditor mehr.
+- Vorhandene Beiträge und Push-Abonnements bleiben erhalten. Das Backend `api/version.php` bleibt unverändert und schützt das Speichern/Löschen bereits per Server-Session + CSRF-Prüfung.
+- Instagram wird weiterhin NICHT automatisch ausgelesen.
 
-- Neuer Bereich **MdL Aktuell** mit Benno Zierer, Josef „Sepp“ Lausch und Markus Saller. Die Instagram-Profiladressen stammen vom Betreiber; Tracking-Parameter sind entfernt.
-- Direkte Links zu den Instagram-Profilen, persönlichen Websites und Landtagsprofilen.
-- **Geschützter Redaktionseditor:** Einmal im Bereich „Mitteilungen“ mit dem vorhandenen Administratorpasswort anmelden; danach unter „MdL Aktuell“ einzelne Instagram-Post-/Reel-Links oder Meldungen der jeweiligen persönlichen Website mit Titel, Datum und optionalem Kurztext veröffentlichen. Redaktionelle Einträge können wieder gelöscht werden.
-- Die Beitragslinks werden serverseitig in `.fw-private/mdl-posts.json` gespeichert; keine neuen GitHub-Updates für einzelne Beiträge nötig.
-- Datenschutz: keine Instagram-Embeds, keine Fremdskripte und kein automatischer Abruf fremder Instagram-Bilder beim App-Öffnen.
+## Installation
+1. Äußeres `FW-Kompass-v1.2.1-GitHub-komplett.zip` auf dem Smartphone entpacken.
+2. `fw-kompass-v1.2.1.zip` und `latest.json` in `Sweindler/fw-kompass-updates` im Hauptverzeichnis hochladen. Bestehende `latest.json` ersetzen.
+3. Änderungen auf GitHub committen.
+4. `https://weindler.net/fw-kompass/admin/updater.php` öffnen und die Online-Version 1.2.1 installieren.
+5. Installierte App aktualisieren; unter „MdL Aktuell“ Bildfunktion und unter „Redaktion“ den passwortgeschützten Editor prüfen.
 
-## Wichtig
+## Sicherheit & Datenschutz
+Es enthält keine Administratorpasswörter, VAPID-Schlüssel, Mitgliederdaten, Statistikdateien oder private Konfiguration. Fotos werden nicht in das Update kopiert. Bestehende PHP-Backend-Dateien werden nicht überschrieben.
 
-**Noch keine Live-Synchronisation von Instagram.** Die offiziellen Meta-Schnittstellen ermöglichen nicht den beliebigen Abruf aller Instagram-Profile; für Business Discovery sind professionelle Konten und geeignete API-Freigaben nötig. Die Bereichsübersicht zeigt bislang ausschließlich redaktionell verlinkte Einzelbeiträge, nicht automatisch erkannte Posts. Die jeweils aktuellsten Posts können Nutzer direkt in Instagram ansehen.
-
-## Installation über GitHub-Updater
-
-Das äußere ZIP entpacken und nur `fw-kompass-v1.2.0.zip` + `latest.json` in `Sweindler/fw-kompass-updates` auf GitHub hochladen. Die `latest.json` ersetzen, Commit speichern, dann in der geschützten FW-Kompass-Updateverwaltung Online-Update 1.2.0 ausführen.
-
-Bestehende News, Mitteilungen, Push-Abonnements, Daten und Admin-Konfiguration bleiben erhalten. Keine sensiblen Dateien im Release. Das erstmalige Speichern eines redaktionellen Links legt `.fw-private/mdl-posts.json` an. Der Updater selbst wird nicht verändert.
+## Teststand
+JavaScript-Syntax geprüft; mobiles Layout und Zugriffssteuerung lokal geprüft. Abschließender Praxistest auf goneo erforderlich.
