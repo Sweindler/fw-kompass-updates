@@ -1,6 +1,6 @@
 {
-  "version": "1.3.13",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.13.zip",
-  "sha256": "2f07e0448e35eacebe3e5b22074c38c7bb7e18e8c9d9b6aadf146f02442bb656",
-  "notes": "Who is Who: Fehler beim Laden der MdL-Porträts behoben. Die freigegebenen Bilder werden nun auch mit Lazy Loading geladen; fehlende Bildquellen bleiben als Platzhalter sichtbar."
+  "version": "1.3.14",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.14.zip",
+  "sha256": "9a794929235b3d92133d47c9e705143e9c4a9011d0bd9986b664bfad046e7a95",
+  "notes": "Who is Who: drei neue Verzeichnisse nur für FREIE WÄHLER (bayerische Staatsminister, Staatssekretäre und Europaabgeordnete). Lisa-Marie Jeckel nicht mehr als JFW-Bundesvorsitzende geführt; Georg Probst seit September 2026. Bestehende Fotos wiederverwendet."
 }
