@@ -1,16 +1,18 @@
-# FW Kompass – Version 1.2.2
+# FW Kompass v1.3.0 – Nutzung & Beliebtheit
 
-## Korrektur nach PC-Test
-- Die Desktop-Seitenleiste lässt sich nun unabhängig vom Hauptinhalt mit Mausrad, Touchpad und Tastatur scrollen.
-- Auch bei einer niedrigen Bildschirmhöhe oder großer Windows-Skalierung sind die unteren Menüpunkte erreichbar.
-- Die Scrollleiste ist sichtbar; die mobile Navigation bleibt unverändert.
-- Inhalte, Push-Abonnements, Nachrichten, Admin-Zugang und gespeicherte Daten bleiben unangetastet.
+- Erweiterte freiwillige, aggregierte Statistik: Tagesstunden und Wochentage, Beiträge nach Sichtkontakten und ungefähre Sichtbarkeit.
+- Beiträge werden erst nach mindestens 3 Sekunden im sichtbaren Bereich als Sichtkontakt gezählt. Zeiten werden in 5-Sekunden-Schritten (max. 300 Sekunden pro Phase) erfasst; nicht gleichzusetzen mit tatsächlicher Lesezeit.
+- **Erneute Einwilligung erforderlich**. Vorherige Statistik-Zustimmung wird nicht stillschweigend übernommen.
+- Datenschutz: keine Besucher-IDs oder individuellen Pfade, Datensätze werden nur nach Tag/Stunde/Inhalt zusammengefasst, automatische Bereinigung nach 120 Tagen bei neuer Erfassung.
+- Bestehende Statistik- und Redaktionsdaten, Push-Abonnements und Updater-Konfiguration bleiben erhalten.
+- Den neuen Bereich nach Installation unter https://weindler.net/fw-kompass/#statistik aufrufen und mit vorhandenem Admin-Passwort anmelden.
+- Zeitraum 7/30/90/120 Tage wählbar. Noch keine Daten zum Start; nur zukünftige Nutzungen zustimmender Geräte.
+- In der Datenschutzerklärung ist die Messmethode ergänzt. Vor öffentlicher Regelverwendung Einwilligung/Verantwortlichkeiten und Webserver-Logs rechtlich prüfen.
+- Technisch geprüft: PHP 8.4, JavaScript-Syntax und ZIP-Hash. Funktionstests auf goneo erforderlich.
 
 ## Installation
-1. `FW-Kompass-v1.2.2-GitHub-komplett.zip` am Handy entpacken.
-2. `fw-kompass-v1.2.2.zip` und `latest.json` in GitHub `Sweindler/fw-kompass-updates` hochladen; vorhandene `latest.json` ersetzen, dann committen.
-3. Über `https://weindler.net/fw-kompass/admin/updater.php` die neue Version prüfen und installieren.
-4. An einem PC die App neu laden (ggf. Strg+F5) und in der linken Navigation mit dem Mausrad bis ganz unten scrollen. Test auch bei 150 % Browser-Zoom.
-
-## Test
-Lokaler Chromium-Test: linke Navigation bei kleiner Höhe scrollbar, Seiteninhalt bleibt unabhängig scrollbar. Abschlussprüfung auf goneo ausstehend.
+1. Äußere GitHub-ZIP auf dem Smartphone entpacken.
+2. Darin enthaltene fw-kompass-v1.3.0.zip und latest.json in Sweindler/fw-kompass-updates hochladen, vorhandene latest.json ersetzen.
+3. In der App-Administration das Online-Update abrufen.
+4. Datenschutz-Einstellungen unter #rechtliches prüfen und der erweiterten Statistik zustimmen (freiwillig).
+5. Geschützte Statistik unter #statistik aufrufen. Weitere Geräte werden nur mit ausdrücklicher Zustimmung gezählt.

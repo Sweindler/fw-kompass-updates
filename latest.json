@@ -1,6 +1,6 @@
 {
-  "version": "1.2.2",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.2.2.zip",
-  "sha256": "34da23d5b2b8470b0990f2893cd5d4222e2b7da778a19535dc6754e11fc5e25a",
-  "notes": "Desktop-Navigation vollständig scrollbar – auch bei kleinen Fenstern, Windows-Skalierung und Browser-Zoom. Keine Änderungen an Inhalten, Push oder Admin."
+  "version": "1.3.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.0.zip",
+  "sha256": "c9bb3d44b061875e5a5d67ba06d91561718ea4b8814a47670eb44402b3b207db",
+  "notes": "Erweiterte freiwillige Nutzungsstatistik: meistbetrachtete Nachrichten und MdL-Beiträge, aktive Sichtbarkeit, Tageszeiten und Wochentage; keine Nutzer-IDs oder individuellen Besuchsverläufe."
 }
