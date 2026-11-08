@@ -1,21 +1,16 @@
-# FW Kompass 1.2.1 — MdL Aktuell & Redaktion
+# FW Kompass – Version 1.2.2
 
-## Änderungen
-- Kompakte Personenprofile auf Mobilgeräten mit Benno Zierer, Josef Lausch und Markus Saller.
-- **Porträtfotos auf Wunsch**: Nach dem Tipp auf „Offizielle Porträts anzeigen“ lädt die App die bereits in `Who is Who` hinterlegten Bildquellen der FW-Landtagsfraktion. Die Entscheidung wird nur auf dem eigenen Gerät gespeichert und kann widerrufen werden. Beim Laden wird eine Verbindung zum externen Bildserver hergestellt. Bitte Bildrechte für längerfristige öffentliche Nutzung klären.
-- **Geschützte Redaktion** unter `https://weindler.net/fw-kompass/#redaktion`: Anmelden mit demselben Admin-Passwort, Beiträge erstellen und löschen. Die öffentliche Ansicht enthält keinen Beitragseditor mehr.
-- Vorhandene Beiträge und Push-Abonnements bleiben erhalten. Das Backend `api/version.php` bleibt unverändert und schützt das Speichern/Löschen bereits per Server-Session + CSRF-Prüfung.
-- Instagram wird weiterhin NICHT automatisch ausgelesen.
+## Korrektur nach PC-Test
+- Die Desktop-Seitenleiste lässt sich nun unabhängig vom Hauptinhalt mit Mausrad, Touchpad und Tastatur scrollen.
+- Auch bei einer niedrigen Bildschirmhöhe oder großer Windows-Skalierung sind die unteren Menüpunkte erreichbar.
+- Die Scrollleiste ist sichtbar; die mobile Navigation bleibt unverändert.
+- Inhalte, Push-Abonnements, Nachrichten, Admin-Zugang und gespeicherte Daten bleiben unangetastet.
 
 ## Installation
-1. Äußeres `FW-Kompass-v1.2.1-GitHub-komplett.zip` auf dem Smartphone entpacken.
-2. `fw-kompass-v1.2.1.zip` und `latest.json` in `Sweindler/fw-kompass-updates` im Hauptverzeichnis hochladen. Bestehende `latest.json` ersetzen.
-3. Änderungen auf GitHub committen.
-4. `https://weindler.net/fw-kompass/admin/updater.php` öffnen und die Online-Version 1.2.1 installieren.
-5. Installierte App aktualisieren; unter „MdL Aktuell“ Bildfunktion und unter „Redaktion“ den passwortgeschützten Editor prüfen.
+1. `FW-Kompass-v1.2.2-GitHub-komplett.zip` am Handy entpacken.
+2. `fw-kompass-v1.2.2.zip` und `latest.json` in GitHub `Sweindler/fw-kompass-updates` hochladen; vorhandene `latest.json` ersetzen, dann committen.
+3. Über `https://weindler.net/fw-kompass/admin/updater.php` die neue Version prüfen und installieren.
+4. An einem PC die App neu laden (ggf. Strg+F5) und in der linken Navigation mit dem Mausrad bis ganz unten scrollen. Test auch bei 150 % Browser-Zoom.
 
-## Sicherheit & Datenschutz
-Es enthält keine Administratorpasswörter, VAPID-Schlüssel, Mitgliederdaten, Statistikdateien oder private Konfiguration. Fotos werden nicht in das Update kopiert. Bestehende PHP-Backend-Dateien werden nicht überschrieben.
-
-## Teststand
-JavaScript-Syntax geprüft; mobiles Layout und Zugriffssteuerung lokal geprüft. Abschließender Praxistest auf goneo erforderlich.
+## Test
+Lokaler Chromium-Test: linke Navigation bei kleiner Höhe scrollbar, Seiteninhalt bleibt unabhängig scrollbar. Abschlussprüfung auf goneo ausstehend.

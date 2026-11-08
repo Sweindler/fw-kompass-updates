@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.2.1.zip",
-  "sha256": "6f3e762b1dfd57b4a5ff9adeca5e41193f3a30e64168ea27678c711c23514707",
-  "notes": "Kompaktere MdL-Personenkarten, offizielle Porträts auf Wunsch und separater passwortgeschützter Redaktionsbereich."
+  "version": "1.2.2",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.2.2.zip",
+  "sha256": "34da23d5b2b8470b0990f2893cd5d4222e2b7da778a19535dc6754e11fc5e25a",
+  "notes": "Desktop-Navigation vollständig scrollbar – auch bei kleinen Fenstern, Windows-Skalierung und Browser-Zoom. Keine Änderungen an Inhalten, Push oder Admin."
 }
