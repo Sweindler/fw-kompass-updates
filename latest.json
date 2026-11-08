@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.0.0.zip",
-  "sha256": "1089fb846c1c9e974a9eb02df1c2502236e3af2bbea15132b9e6532a5ef2210d",
-  "notes": "Benachrichtigungszentrale, Update-Hinweise und geschützte Redaktion (In-App; noch keine Hintergrund-Pushs)."
+  "version": "1.1.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.1.0.zip",
+  "sha256": "e3fcc0e1ebd97aeaff4309274f3ba30a721d095af2868db2236394d4f584ec21",
+  "notes": "Web-Push (Beta): freiwillige Anmeldung, Themenauswahl, Geräteabmeldung und Administrator-Testversand."
 }

@@ -1,13 +1,12 @@
-FW KOMPASS 1.0.0 – BENACHRICHTIGUNGSZENTRALE
+FW KOMPASS 1.1.0 – WEB PUSH (BETA)
 
-1. Diese äußere ZIP auf Android entpacken.
-2. Nur fw-kompass-v1.0.0.zip und latest.json in GitHub Sweindler/fw-kompass-updates hochladen (latest.json ersetzen).
-3. In https://weindler.net/fw-kompass/admin/updater.php über "Online-Update prüfen & installieren" aktualisieren.
-4. In der App unter "Mitteilungen" mit bestehendem Adminpasswort anmelden, Hinweise veröffentlichen.
-5. Nutzer lesen diese Mitteilungen beim Öffnen der App. Gelesen-Status bleibt im jeweiligen Gerät.
+1. Dieses äußere ZIP auf Android entpacken.
+2. In GitHub Sweindler/fw-kompass-updates die beiden enthaltenen Dateien latest.json und fw-kompass-v1.1.0.zip (innere ZIP NICHT entpacken) hochladen.
+3. Commit changes bestätigen.
+4. Im bisherigen Server-Updater https://weindler.net/fw-kompass/admin/updater.php Version 1.1.0 installieren.
+5. Die installierte App starten, Mitteilungen öffnen und Push-Nachrichten ausdrücklich aktivieren.
+6. Danach mit dem bestehenden Admin-Passwort anmelden, im Push-Bereich zuerst "Test an dieses Gerät" senden.
 
-Keine zusätzlichen Serverdateien im Admin-Ordner nötig: Die Funktion nutzt api/version.php, dessen Austausch der vorhandene Server-Updater ausdrücklich erlaubt.
-Das Update überschreibt keine bestehenden Admin- oder Statistikdaten. Hinweise werden ausschließlich in .fw-private/notices.json gespeichert (geschützt).
-
-Noch kein Push bei geschlossener App: Hierzu ist eine gesonderte Web-Push-Versandinfrastruktur mit VAPID-Schlüsseln und ausdrücklicher Zustimmung nötig.
-Bitte nach Update auf goneo mit Adminlogin und einer Testmitteilung verifizieren.
+Noch keine bestätigte echte Zustellung auf goneo: bei Fehlermeldungen bitte Screenshot senden.
+Ohne Zustimmung keine Push-Registrierung. Abmeldung jederzeit möglich.
+Die .fw-private-Dateien, Schlüssel und Passwörter sind NICHT in diesem Paket enthalten.
