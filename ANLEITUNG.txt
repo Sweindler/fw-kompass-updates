@@ -1,10 +1,10 @@
-FW KOMPASS 1.3.3 – VEREINIGUNG ODER VERBAND?
+FW KOMPASS 1.3.4 – MITGLIED WERDEN
 
-1. ZIP dieses GitHub-Pakets auf dem Handy entpacken.
-2. Die enthaltenen Dateien fw-kompass-v1.3.3.zip und latest.json im GitHub-Repository Sweindler/fw-kompass-updates in main hochladen (latest.json überschreiben).
-3. Commit changes.
-4. In der geschützten goneo-Updateverwaltung die Online-Version prüfen und installieren.
-5. Im FW Kompass den Bereich Partei oder Verband? öffnen: https://weindler.net/fw-kompass/#struktur
+1. Dieses äußere ZIP auf dem Smartphone entpacken.
+2. In das öffentliche GitHub-Repository Sweindler/fw-kompass-updates (main) die beiden enthaltenen Dateien hochladen: fw-kompass-v1.3.4.zip und latest.json. Bei latest.json vorhandene Datei ersetzen.
+3. Änderungen mit Commit changes bestätigen.
+4. Unter https://weindler.net/fw-kompass/admin/updater.php das Online-Update auf Version 1.3.4 installieren.
+5. In der App auf der Startseite den orangefarbenen Button "Mitglied werden" prüfen oder direkt https://weindler.net/fw-kompass/#mitglied öffnen.
 
-Der bestehende Updater, private Daten, News, Mitteilungen, Push und Statistiken werden nicht angefasst.
-Quellen: Offizielle Satzung der Landesvereinigung Bayern (15.10.2022) und Satzung des Landesverbandes (verlinktes PDF: Fassung 07.04.2012).
+WICHTIG: Nicht das äußere ZIP direkt im Server-Updater verwenden. Kein Formulardatenversand an den FW-Kompass. Der offizielle Parteiantrag liegt bei fw-bayern.de.
+Die bestehenden Daten, Push-Abonnements, Mitteilungen und Statistiken werden nicht verändert.
