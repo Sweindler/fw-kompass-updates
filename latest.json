@@ -1,6 +1,6 @@
 {
-  "version": "0.7.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.7.0.zip",
-  "sha256": "5b720adfc50237069b713c56b78f492e8f15dab5b0799294358416cc8b000756",
-  "notes": "Version 0.7: Freiwillige datensparsame Nutzungsstatistik mit geschütztem Dashboard, Pflichtangaben-Verwaltung, Impressum (DDG/MStV), Datenschutzhinweise (DSGVO/TDDDG) und externe Porträts erst nach Klick."
+  "version": "0.8.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v0.8.0.zip",
+  "sha256": "8cc0802e0090c911ee71fb900e43bff52b00cc0ef36239df399b7eabbddffe20",
+  "notes": "FW vor Ort: 12 lokale Organisationen, Websites, Suche, Kreisvereinigung/Wählerschaft getrennt; keine vertraulichen Daten."
 }
