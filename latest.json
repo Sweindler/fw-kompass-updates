@@ -1,6 +1,6 @@
 {
-  "version": "1.3.16",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.16.zip",
-  "sha256": "f6e3bab07e56cf9b99bdf695a3d77d4678a272286dfa9c1ff451de17be1d71eb",
-  "notes": "Hubert Aiwanger als Gedenkeintrag mit Trauerflor in Bundesvorstand, Landesvorstand Bayern und Ministerliste († 04.11.2026)."
+  "version": "1.3.17",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.17.zip",
+  "sha256": "c978e5b6ecf9f26f461113f84aaa6376af7a136de72e92aea738d580c06745d7",
+  "notes": "Hubert Aiwanger: Porträt statt HA-Platzhalter, lokales Bild mit Trauerflor, bisherige Rollenbezeichnungen, kompaktere mobile Ansicht."
 }
