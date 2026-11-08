@@ -1,6 +1,6 @@
 {
-  "version": "1.3.19",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.19.zip",
-  "sha256": "b8bf1a1ee3d7cad335b9409219cef1b2db5bbf92fa20a4c5a160ea50bc3dc64f",
-  "notes": "Who is Who neu: Partei-Vereinigung und kommunaler Verband je Ebene, Mandatsträger separat; Erding (13 Namen inkl. Kassenprüfung), Oberbayern (17 veröffentlichte Funktionen), 11 nachgewiesene Ortsgruppen, Fotofreigabe und Hinweis für nicht vorhandene Orte."
+  "version": "1.3.20",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.20.zip",
+  "sha256": "650a5d03ad80bcf30eafb33280e8e53fa06e058b24a71990d0d6bd1a9858979c",
+  "notes": "Interaktiver Bereich Neu für mich: Ungelesenes, persönliche Likes, Merkliste und Gelesen-Markierungen für Nachrichten und Mitteilungen. Datenschutzfreundlich lokal ohne Login."
 }

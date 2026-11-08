@@ -1,0 +1,53 @@
+FW KOMPASS – UPDATE v1.3.20
+Stand: 08.11.2026
+Ausgangsversion: v1.3.19
+
+ANLEITUNG FÜR DEN BISHERIGEN GITHUB-UPDATER
+1. Diese AUSSEN-ZIP herunterladen und entpacken.
+2. Die Datei „fw-kompass-v1.3.20.zip“ ins Hauptverzeichnis des vorhandenen
+   GitHub-Update-Repositories Sweindler/fw-kompass-updates hochladen.
+3. „latest.json“ in demselben Repository ersetzen und Änderungen committen.
+4. In der installierten App als Admin den bisherigen Update-Mechanismus öffnen
+   (/admin/updater.php), das Update prüfen und installieren.
+5. App und Browser ggf. neu starten; anschließend unter „Neu für mich“ testen.
+
+WICHTIG
+- Die INNERE ZIP ist das Updatepaket für den bestehenden Updater.
+- Die AUSSEN-ZIP enthält nur diese innere ZIP, latest.json und Anleitung.
+- Diese Version ist ein inkrementelles Update für eine bestehende vollständige
+  FW-Kompass-Installation ab v1.3.19. Es ist KEIN eigenständig lauffähiges
+  Neuinstallations-Paket. Bestehende API-, Bild-, Daten- und Zusatzmodule
+  bleiben auf dem Server erhalten und dürfen nicht gelöscht werden.
+- Wenn der Updater statt zusammenzuführen das gesamte App-Verzeichnis ersetzt,
+  das Update NICHT installieren: Dann müsste zuerst ein Vollpaket gebaut werden.
+
+NEU IN v1.3.20
+- Bereich „Neu für mich“ als eigener Hauptnavigationspunkt (auch mobil).
+- Ungelesene Nachrichten und App-Mitteilungen gemeinsam in einer Übersicht.
+- „Gefällt mir“ als private, pro Gerät gespeicherte Reaktion auf Nachrichten.
+- Merkliste für Nachrichten.
+- Einzelne Meldungen als gelesen/ungelesen markieren.
+- Beim Klick auf „Zur offiziellen Quelle“ automatisch als gelesen markieren.
+- Filter „Alle“, „Ungelesen“, „Gemerkt“ und „Gefällt mir“ in Aktuelles.
+- Lesestatus bei Mitteilungen einzeln setzen/zurücksetzen.
+- Persönliche Markierungen zurücksetzen; Datenschutztext ergänzt.
+- Bisherige v1.3.19-Struktur, Vorstände, MdL, Fotos und Gedenken nicht verändert.
+
+DATENSCHUTZ & FUNKTIONSGRENZEN
+- Persönliche Likes, Lesestatus und Merkliste bleiben per localStorage nur
+  in diesem Browser bzw. auf diesem Gerät. Kein Benutzerkonto erforderlich.
+- Es gibt ausdrücklich KEINE gemeinsame, öffentliche Like-Zählung und KEINE
+  Synchronisation von Likes oder Lesestatus zwischen Geräten.
+- Ein zentraler Like-Dienst oder öffentliche Kommentare erfordern ein getrenntes
+  Datenschutz-/Berechtigungs-/Moderationskonzept und sind nicht Teil dieses Updates.
+- Die bereits bestehende freiwillige Statistik und andere App-Funktionen bleiben
+  unverändert; die neuen privaten Reaktionen senden keine eigenen Ereignisse.
+
+PRÜFUNG
+- JavaScript-Syntax für app.js und sw.js erfolgreich geprüft.
+- Dateien und Versionsangaben auf v1.3.20 abgeglichen.
+- Browser-End-to-End-Prüfung in dieser Laufzeitumgebung technisch blockiert.
+- Vor breitem Rollout ist ein Test in der realen Hosting-Umgebung empfehlenswert.
+
+SHA-256 inneres Update-ZIP:
+650a5d03ad80bcf30eafb33280e8e53fa06e058b24a71990d0d6bd1a9858979c
