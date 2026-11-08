@@ -1,12 +1,19 @@
-FW KOMPASS 1.1.0 – WEB PUSH (BETA)
+# FW Kompass v1.2.0 – MdL Aktuell
 
-1. Dieses äußere ZIP auf Android entpacken.
-2. In GitHub Sweindler/fw-kompass-updates die beiden enthaltenen Dateien latest.json und fw-kompass-v1.1.0.zip (innere ZIP NICHT entpacken) hochladen.
-3. Commit changes bestätigen.
-4. Im bisherigen Server-Updater https://weindler.net/fw-kompass/admin/updater.php Version 1.1.0 installieren.
-5. Die installierte App starten, Mitteilungen öffnen und Push-Nachrichten ausdrücklich aktivieren.
-6. Danach mit dem bestehenden Admin-Passwort anmelden, im Push-Bereich zuerst "Test an dieses Gerät" senden.
+## Neu
 
-Noch keine bestätigte echte Zustellung auf goneo: bei Fehlermeldungen bitte Screenshot senden.
-Ohne Zustimmung keine Push-Registrierung. Abmeldung jederzeit möglich.
-Die .fw-private-Dateien, Schlüssel und Passwörter sind NICHT in diesem Paket enthalten.
+- Neuer Bereich **MdL Aktuell** mit Benno Zierer, Josef „Sepp“ Lausch und Markus Saller. Die Instagram-Profiladressen stammen vom Betreiber; Tracking-Parameter sind entfernt.
+- Direkte Links zu den Instagram-Profilen, persönlichen Websites und Landtagsprofilen.
+- **Geschützter Redaktionseditor:** Einmal im Bereich „Mitteilungen“ mit dem vorhandenen Administratorpasswort anmelden; danach unter „MdL Aktuell“ einzelne Instagram-Post-/Reel-Links oder Meldungen der jeweiligen persönlichen Website mit Titel, Datum und optionalem Kurztext veröffentlichen. Redaktionelle Einträge können wieder gelöscht werden.
+- Die Beitragslinks werden serverseitig in `.fw-private/mdl-posts.json` gespeichert; keine neuen GitHub-Updates für einzelne Beiträge nötig.
+- Datenschutz: keine Instagram-Embeds, keine Fremdskripte und kein automatischer Abruf fremder Instagram-Bilder beim App-Öffnen.
+
+## Wichtig
+
+**Noch keine Live-Synchronisation von Instagram.** Die offiziellen Meta-Schnittstellen ermöglichen nicht den beliebigen Abruf aller Instagram-Profile; für Business Discovery sind professionelle Konten und geeignete API-Freigaben nötig. Die Bereichsübersicht zeigt bislang ausschließlich redaktionell verlinkte Einzelbeiträge, nicht automatisch erkannte Posts. Die jeweils aktuellsten Posts können Nutzer direkt in Instagram ansehen.
+
+## Installation über GitHub-Updater
+
+Das äußere ZIP entpacken und nur `fw-kompass-v1.2.0.zip` + `latest.json` in `Sweindler/fw-kompass-updates` auf GitHub hochladen. Die `latest.json` ersetzen, Commit speichern, dann in der geschützten FW-Kompass-Updateverwaltung Online-Update 1.2.0 ausführen.
+
+Bestehende News, Mitteilungen, Push-Abonnements, Daten und Admin-Konfiguration bleiben erhalten. Keine sensiblen Dateien im Release. Das erstmalige Speichern eines redaktionellen Links legt `.fw-private/mdl-posts.json` an. Der Updater selbst wird nicht verändert.
