@@ -1,20 +1,18 @@
-FW KOMPASS – KORREKTUR 1.3.2 | ALTE MITTEILUNGEN AUSBLENDEN
+FW KOMPASS 1.3.2 – KORRIGIERTES GITHUB-PAKET
 
-1. Äußeres ZIP auf dem Smartphone entpacken.
-2. fw-kompass-v1.3.2.zip und latest.json direkt in GitHub Sweindler/fw-kompass-updates hochladen.
-3. Bestehende latest.json ersetzen, auf Commit changes tippen.
-4. Im geschützten Updater https://weindler.net/fw-kompass/admin/updater.php das Update installieren.
-5. FW Kompass neu starten und bei Bedarf „Jetzt aktualisieren“ verwenden.
-6. Unter https://weindler.net/fw-kompass/#mitteilungen prüfen, ob die automatischen Alt-Meldungen verschwunden sind.
+FEHLERBEHEBUNG
+Im ersten Updatepaket 1.3.2 fehlte assets/style.css. Der geschützte Updater hat die Installation daher korrekt abgelehnt.
+Diese Fassung enthält alle fünf Pflichtdateien und eine aktualisierte SHA-256-Prüfsumme.
 
-WAS SICH ÄNDERT
-- Die Versionsmeldung „Neu: FW Kompass …“ wird nicht mehr als dauerhafte Mitteilung erzeugt.
-- Der frühere Hinweis „Push Nachrichten sind jetzt verfügbar.“ wird ausgeblendet.
-- Echte redaktionelle Nachrichten bleiben sichtbar und sind weiterhin administrierbar.
-- Version, Update-Service und Installationsfunktion funktionieren unverändert.
-- Push-Abonnements, Statistik, Beiträge und alle geschützten Daten werden nicht gelöscht.
-- Das Pilotprojekt-Banner oben bleibt erhalten.
+INSTALLATION VIA GITHUB
+1. Diese äußere ZIP auf dem Handy entpacken.
+2. In GitHub Sweindler/fw-kompass-updates die BEIDEN Dateien ersetzen bzw. hochladen:
+   - fw-kompass-v1.3.2.zip (die innere ZIP NICHT entpacken)
+   - latest.json
+3. Commit changes. Falls GitHub bei gleichen Dateinamen das Hochladen verweigert, die vorhandenen Versionen im Repository einzeln ersetzen.
+4. Im FW-Kompass-Updater Online-Version prüfen und installieren.
+5. Kontrollieren, dass Version 1.3.2 angezeigt wird und alte Meldungen weg sind.
 
-Technischer Hinweis: Alte Push-Benachrichtigungen in den Betriebssystem-Benachrichtigungen
-können nicht rückwirkend entfernt werden. Diese Korrektur betrifft ausschließlich die
-öffentliche Liste innerhalb der App.
+WICHTIG: Nicht nur eine der Dateien austauschen, sonst stimmt die SHA-256-Prüfsumme nicht.
+
+ALTERNATIV: Nur die innere fw-kompass-v1.3.2.zip in der Updateverwaltung unter „Update direkt vom Handy“ hochladen und installieren. Damit die Online-Quelle später korrekt bleibt, danach trotzdem beide GitHub-Dateien ersetzen.
