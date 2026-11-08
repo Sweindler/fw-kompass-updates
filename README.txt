@@ -1,9 +1,10 @@
-FW Kompass 1.3.12 - Who is Who: Fotos der FW-Landtagsabgeordneten
+FW Kompass 1.3.13 – Fix Porträtbilder
 
-1. Dieses Gesamt-ZIP auf dem Handy entpacken.
-2. fw-kompass-v1.3.12.zip und latest.json in github.com/Sweindler/fw-kompass-updates hochladen (alte latest.json ersetzen).
-3. Auf Commit changes tippen.
-4. https://weindler.net/fw-kompass/admin/updater.php aufrufen und Online-Update installieren.
-5. Unter Who is Who -> MdL in Bayern den Button Alle Portraets anzeigen antippen. Die Auswahl bleibt auf dem Geraet gespeichert.
+1. Äußere ZIP-Datei entpacken.
+2. fw-kompass-v1.3.13.zip und latest.json in GitHub hochladen.
+3. Änderungen committen.
+4. Im FW-Kompass-Updater die neue Version installieren.
+5. App neu öffnen, im Who is Who die Porträts zulassen.
 
-Hinweis: Bilder werden erst nach Zustimmung von offiziellen externen Quellen geladen. Bei einer fehlenden Datei bleibt der Platzhalter sichtbar. Fuer eine dauerhafte offizielle Nutzung sind die Bildrechte mit den Rechteinhabern zu klaeren.
+Bestehende Statistikdaten, Push-Abonnements und private Serverdateien bleiben unberührt.
+Hinweis: Einzelne externe Bildquellen können dennoch ausfallen oder Hotlinking verbieten. Bildnutzungsrechte für eine offizielle Verwendung gesondert prüfen.
