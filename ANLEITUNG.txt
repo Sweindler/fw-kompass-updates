@@ -1,17 +1,11 @@
-FW Kompass 1.3.8 – Anmeldekorrektur Nachrichtensynchronisation
+FW KOMPASS 1.3.9 – BUND-NACHRICHTEN-ABRUF
 
-1. Äußeres GitHub-Paket entpacken.
-2. fw-kompass-v1.3.8.zip UND latest.json in deinem GitHub-Repository ersetzen/hochladen.
-3. In der bestehenden Admin-Updateverwaltung die Version 1.3.8 installieren.
-4. https://weindler.net/fw-kompass/api/news.php?admin=1 in Chrome direkt öffnen.
-5. Beim alten Administratorpasswort bleiben.
+1. Dieses aeussere ZIP entpacken.
+2. Die innere fw-kompass-v1.3.9.zip NICHT entpacken.
+3. Bei GitHub im Repository Sweindler/fw-kompass-updates die innere ZIP und latest.json hochladen.
+4. Beide Dateien ersetzen / Commit changes.
+5. Die Installation ueber /fw-kompass/admin/updater.php ausloesen.
+6. Unter /fw-kompass/api/news.php?admin=1 (mit Passwort) Quellen pruefen.
 
-Das Update enthält keine Konfigurationsdateien oder Passwörter und überschreibt weder
-Redaktionsdaten noch Push-Abonnements noch geschützte Admin-Daten.
-
-Sicherheitsdetails: HTTPS, CSRF-Token, SameSite=Strict-Session-Cookie, Passwortprüfung
-und Login-Begrenzung bleiben aktiv. Der Origin-Header wird nicht mehr zusätzlich
-als Blockierkriterium verwendet.
-
-Bei Fehler nach der Installation bitte Screenshot der NEUEN Fehlermeldung senden,
-aber niemals Passwörter oder Zugangscodes.
+Bei erneutem Fehler einen Screenshot der Bund-Zeile senden; die Fehlermeldung enthaelt nun Details.
+Vorhandene Daten, geheime Schluessel und Push-Abonnements werden nicht veraendert.
