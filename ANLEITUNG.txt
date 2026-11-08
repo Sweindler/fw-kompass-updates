@@ -1,20 +1,17 @@
-FW Kompass 1.3.7 – Admin-Anmeldung der Nachrichten-Synchronisation repariert
+FW Kompass 1.3.8 – Anmeldekorrektur Nachrichtensynchronisation
 
-Problem: Die Meldung »Unzulässiger Ursprung« trat beim Anmelden auf,
-weil der HTTP-Origin-Header streng mit HTTP_HOST verglichen wurde.
+1. Äußeres GitHub-Paket entpacken.
+2. fw-kompass-v1.3.8.zip UND latest.json in deinem GitHub-Repository ersetzen/hochladen.
+3. In der bestehenden Admin-Updateverwaltung die Version 1.3.8 installieren.
+4. https://weindler.net/fw-kompass/api/news.php?admin=1 in Chrome direkt öffnen.
+5. Beim alten Administratorpasswort bleiben.
 
-Korrektur: Die beiden offiziellen HTTPS-Ursprünge weindler.net und
-www.weindler.net werden akzeptiert. Unbekannte Ursprünge bleiben gesperrt.
-Session-CSRF-Token, HTTPS-Pflicht und das Administratorpasswort bleiben aktiv.
+Das Update enthält keine Konfigurationsdateien oder Passwörter und überschreibt weder
+Redaktionsdaten noch Push-Abonnements noch geschützte Admin-Daten.
 
-UPDATE:
-1. Äußere ZIP-Datei am Smartphone entpacken.
-2. In das GitHub-Repository Sweindler/fw-kompass-updates hochladen:
-   - fw-kompass-v1.3.7.zip (NEU)
-   - latest.json (alte Datei ersetzen)
-3. Commit changes.
-4. https://weindler.net/fw-kompass/admin/updater.php öffnen und 1.3.7 installieren.
-5. https://weindler.net/fw-kompass/api/news.php?admin=1 öffnen.
-6. Mit dem bisherigen Admin-Passwort anmelden und die Quellenprüfung starten.
+Sicherheitsdetails: HTTPS, CSRF-Token, SameSite=Strict-Session-Cookie, Passwortprüfung
+und Login-Begrenzung bleiben aktiv. Der Origin-Header wird nicht mehr zusätzlich
+als Blockierkriterium verwendet.
 
-Das Paket überschreibt keine privaten Daten, Geräte-Abonnements oder Einstellungen.
+Bei Fehler nach der Installation bitte Screenshot der NEUEN Fehlermeldung senden,
+aber niemals Passwörter oder Zugangscodes.
