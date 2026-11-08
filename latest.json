@@ -1,6 +1,6 @@
 {
-  "version": "1.3.18",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.18.zip",
-  "sha256": "67b98559eb97441d7ec3b4fab7a926fd69d90ce7d6f6a950c7989eb9bc8f9a4e",
-  "notes": "Hubert Aiwanger auch in der MdL-Liste: Gedenkeintrag mit bisherigem MdL-Titel, echtem Porträt und schwarzem Trauerflor. Sonstige Einträge unverändert."
+  "version": "1.3.19",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.19.zip",
+  "sha256": "b8bf1a1ee3d7cad335b9409219cef1b2db5bbf92fa20a4c5a160ea50bc3dc64f",
+  "notes": "Who is Who neu: Partei-Vereinigung und kommunaler Verband je Ebene, Mandatsträger separat; Erding (13 Namen inkl. Kassenprüfung), Oberbayern (17 veröffentlichte Funktionen), 11 nachgewiesene Ortsgruppen, Fotofreigabe und Hinweis für nicht vorhandene Orte."
 }
