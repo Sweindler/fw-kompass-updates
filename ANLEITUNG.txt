@@ -1,18 +1,10 @@
-FW KOMPASS 1.3.2 – KORRIGIERTES GITHUB-PAKET
+FW KOMPASS 1.3.3 – VEREINIGUNG ODER VERBAND?
 
-FEHLERBEHEBUNG
-Im ersten Updatepaket 1.3.2 fehlte assets/style.css. Der geschützte Updater hat die Installation daher korrekt abgelehnt.
-Diese Fassung enthält alle fünf Pflichtdateien und eine aktualisierte SHA-256-Prüfsumme.
+1. ZIP dieses GitHub-Pakets auf dem Handy entpacken.
+2. Die enthaltenen Dateien fw-kompass-v1.3.3.zip und latest.json im GitHub-Repository Sweindler/fw-kompass-updates in main hochladen (latest.json überschreiben).
+3. Commit changes.
+4. In der geschützten goneo-Updateverwaltung die Online-Version prüfen und installieren.
+5. Im FW Kompass den Bereich Partei oder Verband? öffnen: https://weindler.net/fw-kompass/#struktur
 
-INSTALLATION VIA GITHUB
-1. Diese äußere ZIP auf dem Handy entpacken.
-2. In GitHub Sweindler/fw-kompass-updates die BEIDEN Dateien ersetzen bzw. hochladen:
-   - fw-kompass-v1.3.2.zip (die innere ZIP NICHT entpacken)
-   - latest.json
-3. Commit changes. Falls GitHub bei gleichen Dateinamen das Hochladen verweigert, die vorhandenen Versionen im Repository einzeln ersetzen.
-4. Im FW-Kompass-Updater Online-Version prüfen und installieren.
-5. Kontrollieren, dass Version 1.3.2 angezeigt wird und alte Meldungen weg sind.
-
-WICHTIG: Nicht nur eine der Dateien austauschen, sonst stimmt die SHA-256-Prüfsumme nicht.
-
-ALTERNATIV: Nur die innere fw-kompass-v1.3.2.zip in der Updateverwaltung unter „Update direkt vom Handy“ hochladen und installieren. Damit die Online-Quelle später korrekt bleibt, danach trotzdem beide GitHub-Dateien ersetzen.
+Der bestehende Updater, private Daten, News, Mitteilungen, Push und Statistiken werden nicht angefasst.
+Quellen: Offizielle Satzung der Landesvereinigung Bayern (15.10.2022) und Satzung des Landesverbandes (verlinktes PDF: Fassung 07.04.2012).
