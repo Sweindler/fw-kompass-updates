@@ -1,37 +1,20 @@
-FW KOMPASS – VERSION 1.3.6
-Automatische Nachrichtenprüfung beim Wechsel zwischen Bund, Bayern und Erding
+FW Kompass 1.3.7 – Admin-Anmeldung der Nachrichten-Synchronisation repariert
 
-INSTALLATION WIE GEWOHNT
-1. Das äußere ZIP „FW-Kompass-v1.3.6-GitHub-komplett.zip“ auf dem Smartphone entpacken.
-2. Die enthaltenen Dateien „fw-kompass-v1.3.6.zip“ und „latest.json“ in
-   https://github.com/Sweindler/fw-kompass-updates hochladen.
-3. Die alte latest.json ersetzen, mit Commit changes speichern.
-4. Im bestehenden Updatebereich https://weindler.net/fw-kompass/admin/updater.php
-   die Version 1.3.6 prüfen und installieren.
+Problem: Die Meldung »Unzulässiger Ursprung« trat beim Anmelden auf,
+weil der HTTP-Origin-Header streng mit HTTP_HOST verglichen wurde.
 
-DANACH EINMAL PRÜFEN
-1. https://weindler.net/fw-kompass/api/news.php?admin=1 öffnen.
-2. Mit deinem Adminpasswort anmelden und alle drei Quellen aktivieren.
-3. Prüfintervall nach Wunsch auswählen (3, 6, 12, 24 Stunden); 6 Stunden sind der Standard.
-4. Einmal „Jetzt Quellen prüfen & aktualisieren“ ausführen und die drei Statuswerte anschauen.
-5. In der App „Aktuelles“ öffnen und nacheinander Bund, Bayern und Erding antippen.
-   Jede Auswahl fragt nun die Server-API ab; die Originalwebsite wird nur nach
-   Ablauf des eingestellten Intervalls neu geprüft.
+Korrektur: Die beiden offiziellen HTTPS-Ursprünge weindler.net und
+www.weindler.net werden akzeptiert. Unbekannte Ursprünge bleiben gesperrt.
+Session-CSRF-Token, HTTPS-Pflicht und das Administratorpasswort bleiben aktiv.
 
-WICHTIGE HINWEISE
-- Das ist keine Echtzeit-Garantie. Der Stand hängt von den offiziellen Webseiten ab.
-- Bund und Bayern: eindeutig datierte Links werden nach erfolgreichem Abruf übernommen.
-- Erding: Beiträge ohne eindeutig erkennbare Datums-/Linkzuordnung werden bewusst
-  nicht als aktuelle Nachrichten ausgegeben. Stattdessen bleibt der Link zur Quelle.
-- Wenn ein Quellserver nicht erreichbar ist, bleiben alte importierte Meldungen erhalten;
-  der Status zeigt den Fehler an.
-- Alte Demo-Nachrichten werden im öffentlichen Bereich nicht angezeigt.
-- Updates der Programmdaten bleiben getrennt von Nachrichtenupdates. Keine neuen ZIPs
-  für einzelne neue Nachrichten erforderlich.
-- Für nächtliche Aktualisierung ohne App-Aufruf ist später optional ein Cronjob nötig.
-- Im ZIP sind KEINE Logins, VAPID-Schlüssel, Push-Abos, Statistiken, Betreiberdaten
-  oder Inhalte aus .fw-private enthalten. Bestehende admin/ und data/ bleiben erhalten.
+UPDATE:
+1. Äußere ZIP-Datei am Smartphone entpacken.
+2. In das GitHub-Repository Sweindler/fw-kompass-updates hochladen:
+   - fw-kompass-v1.3.7.zip (NEU)
+   - latest.json (alte Datei ersetzen)
+3. Commit changes.
+4. https://weindler.net/fw-kompass/admin/updater.php öffnen und 1.3.7 installieren.
+5. https://weindler.net/fw-kompass/api/news.php?admin=1 öffnen.
+6. Mit dem bisherigen Admin-Passwort anmelden und die Quellenprüfung starten.
 
-TESTSTATUS
-Syntax und Parser anhand repräsentativer Linkformate geprüft. Ein vollständiger
-Browsertest sowie ein Live-Abruf vom goneo-Server sind vor Ort zu kontrollieren.
+Das Paket überschreibt keine privaten Daten, Geräte-Abonnements oder Einstellungen.
