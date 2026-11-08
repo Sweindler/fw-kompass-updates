@@ -1,6 +1,6 @@
 {
-  "version": "1.3.1",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.1.zip",
-  "sha256": "b6e53675f3a1b3345ec7e9bb9692dfb443b4dd2eeb7359be4ad912fdda26a3e2",
-  "notes": "Öffentlicher Start als Pilotprojekt Landkreis Erding: klare Kennzeichnung im Kopfbereich, Bereinigung von Demo-Texten und Verzicht auf unbestätigte Beispielnachrichten."
+  "version": "1.3.2",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.2.zip",
+  "sha256": "16ace30d06e66d7ab31da3b5020d24c6d9f46083827fd2e6214d5e2479940242",
+  "notes": "Aufgeräumte Mitteilungsansicht: Alte automatische Versionsmeldungen und der frühere Push-Einführungshinweis werden nicht mehr angezeigt. Die Mitteilungsverwaltung und alle Push-Abonnements bleiben erhalten."
 }
