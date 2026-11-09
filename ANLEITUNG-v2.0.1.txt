@@ -1,0 +1,33 @@
+FW KOMPASS 2.0.1 · Design-Feinschliff vom 09.11.2026
+Ausgangsversion: FW Kompass 2.0.0 (auf Basis 1.3.22)
+
+WICHTIG: Dieses ZIP ist ein Update der installierten App, keine vollständige Neuinstallation.
+Unveränderte Server-Dateien (API, Daten, Push-Skripte, Manifest, externe Datenmodule,
+Fotos und geschützter Adminbereich) bleiben auf dem Server bestehen.
+
+A) UPDATE DIREKT VOM HANDY / GONEO
+1. Vorher Backup der produktiven App und Nutzerdaten anlegen.
+2. In der bestehenden Administration den Menüpunkt "Update direkt vom Handy" öffnen.
+3. Ausschließlich fw-kompass-v2.0.1.zip auswählen und einspielen.
+4. App komplett schließen und wieder öffnen; gegebenenfalls neu laden, bis v2.0.1 angezeigt wird.
+5. Startseite, Nachrichten, Personenfotos, Gremien, Mandate, Suche und Admin prüfen.
+
+B) UPDATE ÜBER GITHUB
+1. GitHub-Gesamtpaket entpacken.
+2. fw-kompass-v2.0.1.zip zuerst ins Repository Sweindler/fw-kompass-updates hochladen.
+3. Erst anschließend latest.json hochladen, damit der Updater auf eine existierende ZIP zeigt.
+4. Prüfsumme (SHA-256) des Update-ZIPs: ac23664d6751442e07d610a46175162f35c7679c5a87bc970f3022a75a771d9d
+
+ÄNDERUNGEN
+- Kompakteres Startbanner für Smartphones; Orange/Weiß bleibt erhalten
+- Nachrichtenübersicht direkt unter dem Banner, maximal 3 bestätigte Meldungen
+- Aussagekräftige Direktzugriffe: Region, Kontakt, Junge FW, Merkliste
+- Größere Porträtfläche, bessere Lesbarkeit und Funktionskennzeichnungen
+- Dezente Seitenanimation, sofern Geräteeinstellung Bewegung erlaubt
+- Keine Änderungen an who.js, organisation.js oder sonstigen Inhalten
+
+BEMERKUNGEN
+- Die App nutzt weiterhin die vorhandenen Live-Nachrichtenquellen; Meldungen werden nicht erfunden.
+- Externe Personenbilder erscheinen weiterhin ausschließlich nach Zustimmung.
+- Die ZIP enthält Oberflächen-Dateien, kein vollständiges Backend.
+- Der Produktivbetrieb auf goneo muss nach Installation geprüft werden.

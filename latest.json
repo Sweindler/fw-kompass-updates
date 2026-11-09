@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v2.0.0.zip",
-  "sha256": "b611d722ae0afb8f5fe92ddd34bb4451db4dbe0c64a42c62125ee2931408cf6d",
-  "notes": "FW Kompass 2.0: orange-weißes, responsives Design, neue Fünf-Punkte-Navigation, Gremien- und Mandatsübersicht, globale Personensuche. Bestehende Daten und Server-API bleiben erhalten."
+  "version": "2.0.1",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v2.0.1.zip",
+  "sha256": "ac23664d6751442e07d610a46175162f35c7679c5a87bc970f3022a75a771d9d",
+  "notes": "Kompaktere Startseite, News oben, neue Direktzugriffe, verbesserte Personenprofile, sanfte Animationen. Keine Änderungen an Server-/Nutzerdaten."
 }
