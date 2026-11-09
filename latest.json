@@ -1,6 +1,6 @@
 {
-  "version": "1.3.22",
-  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v1.3.22.zip",
-  "sha256": "6f51ed7c83129014e63a5ea4a51710dba732f45887ba664e387db6851a505223",
-  "notes": "FW Kompass v1.3.22: 28 FW-Landrätinnen und -Landräte in Bayern mit Profilen, Fotos nach Zustimmung und Regierungsbezirksfilter."
+  "version": "2.0.0",
+  "zip_url": "https://raw.githubusercontent.com/Sweindler/fw-kompass-updates/main/fw-kompass-v2.0.0.zip",
+  "sha256": "b611d722ae0afb8f5fe92ddd34bb4451db4dbe0c64a42c62125ee2931408cf6d",
+  "notes": "FW Kompass 2.0: orange-weißes, responsives Design, neue Fünf-Punkte-Navigation, Gremien- und Mandatsübersicht, globale Personensuche. Bestehende Daten und Server-API bleiben erhalten."
 }

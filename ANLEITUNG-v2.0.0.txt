@@ -1,0 +1,49 @@
+FW KOMPASS 2.0 · Design-Update vom 09.11.2026
+Ausgangsversion: FW Kompass 1.3.22
+
+WICHTIG: Dieses Update ergänzt die bereits installierte App. Es ist keine
+vollständige Neuinstallation. Unveränderte Server-Dateien (API, Daten,
+Manifest, andere JS-Module, Bilder und Adminbereich) bleiben bestehen.
+
+A) UPDATE DIREKT VOM HANDY (goneo)
+1. Zuerst ein Backup der produktiven App und Daten auf dem Server machen.
+2. Im bestehenden Updater: "Update direkt vom Handy" wählen.
+3. Nur die Datei fw-kompass-v2.0.0.zip auswählen.
+4. Nach Installation App neu laden, gegebenenfalls Browser-PWA schließen
+   und erneut starten, damit der Service-Worker v2.0.0 aktiv wird.
+5. Gremien, Mandate, Suche, News und den Admin-Zugriff prüfen.
+
+B) GITHUB-UPDATE-REPOSITORY
+1. Das GitHub-Gesamtpaket entpacken.
+2. fw-kompass-v2.0.0.zip und latest.json in das Repository
+   Sweindler/fw-kompass-updates im Stammverzeichnis hochladen.
+3. Nicht zuerst latest.json veröffentlichen: ZIP muss bereits abrufbar sein.
+4. Die SHA-256-Prüfsumme in latest.json gilt für die enthaltene ZIP.
+
+ÄNDERUNGEN
+- FW-Orange, Cremeweiß und warmes Hellgrau; keine dominierenden Blauflächen
+- Neue responsive Startseite, Karten, Abstände und Schriftgestaltung
+- Fünf feste Navigationsbereiche: Start, Gremien, Mandate, News, Mehr
+- Neue Einstiegsseiten für Vereinigung / Verband und Mandatsträger
+- Globale Suche über bestehende Personen- und Organisationsdatensätze
+- Bisherige Unterseiten, Porträt-Einwilligung, Gedenkbereich, Nachrichten,
+  Update-Prüfung und geschützte Serververwaltung bleiben bestehen
+
+UNVERÄNDERT / WICHTIG
+- Keine bestehende Nutzer-, Nachrichten- oder Serverdatei wird ersetzt,
+  außer den acht oben im Update enthaltenen Oberflächen-/Release-Dateien.
+- Die bestehenden who.js- und organisation.js-Datensätze sind unverändert.
+- Echte Server-Push-Funktionalität hängt weiterhin vom vorhandenen Backend ab.
+- Die Online-Fotos bleiben von Quellen und Zustimmung abhängig.
+- Das neue Design wurde mit syntaktischen und isolierten UI-Tests geprüft;
+  der Live-Betrieb muss nach Upload auf dem Server überprüft werden.
+
+Dateien im Update:
+index.html
+assets/app.js
+assets/style.css
+assets/who.js
+assets/organisation.js
+assets/hubert-aiwanger-portrait.webp
+sw.js
+release.json
